@@ -2,6 +2,7 @@
   "name": "wiredep",
   "version": "2.2.2",
   "main": "./wiredep.js",
+  "private" : true,
   "bin": {
     "wiredep": "./wiredep-cli.js"
   },
