@@ -44,6 +44,7 @@ function wiredep(opts) {
     ('global-dependencies', helpers.createStore())
     ('ignore-path', opts.ignorePath)
     ('include-self', opts.includeSelf)
+    ('minified', opts.minified)
     ('overrides', $._.extend({}, config.get('bower.json').overrides, opts.overrides))
     ('src', [])
     ('stream', opts.stream ? opts.stream : {});
